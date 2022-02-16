@@ -2125,7 +2125,7 @@ vscode-vue-languageservice@0.29.8:
     vscode-pug-languageservice "0.29.8"
     vscode-typescript-languageservice "0.29.8"
 
-vue-demi@*:
+vue-demi@*, vue-demi@^0.12.1:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
   integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
@@ -2168,6 +2168,13 @@ vue@^3.2.27:
     "@vue/runtime-dom" "3.2.29"
     "@vue/server-renderer" "3.2.29"
     "@vue/shared" "3.2.29"
+
+vuetensils@^0.10.4:
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/vuetensils/-/vuetensils-0.10.4.tgz#70fcce5ebb56b4c19187b5ec5518617b5d313d4f"
+  integrity sha512-rnO2b3oYyqQio2ohH3tLOQ+4baIFwjpjfTL4Am9SHXSlRXrBdTVCdzvqbgiKO0hXfbPAKXRh7/IryWtsgfZmww==
+  dependencies:
+    vue-demi "^0.12.1"
 
 which@^2.0.1:
   version "2.0.2"
